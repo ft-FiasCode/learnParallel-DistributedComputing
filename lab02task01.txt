@@ -1,0 +1,2 @@
+mpiexce or mpirun commands are used to execute mpi libaray programs. As it manage the 
+communication between differnt process across multi computers in a network.
