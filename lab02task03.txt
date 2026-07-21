@@ -1,0 +1,2 @@
+is a defualt communicator that provide communication between all process launch
+by mpi libaray.
