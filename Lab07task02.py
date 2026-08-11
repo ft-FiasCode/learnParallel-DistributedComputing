@@ -1,0 +1,8 @@
+from mpi4py import MPI
+
+comm = MPI.COMM_WORLD
+rank = comm.Get_rank()
+
+value = rank + 1  
+result = comm.scan(value, op=MPI.SUM)
+print(f"Rank {rank}: cumulative Sum = {result}")
